@@ -26,7 +26,7 @@
 
                 <li class="menu-header">Product</li>
                 <li class="{{ Request::is('product*') ? 'active' : '' }}">
-                    <a class="nav-link" href="{{ route('user.index') }}"><i class="fas fa-box"></i><span>All
+                    <a class="nav-link" href="{{ route('product.index') }}"><i class="fas fa-box"></i><span>All
                             Products</span></a>
 
                 </li>

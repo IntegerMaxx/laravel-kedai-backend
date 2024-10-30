@@ -22,5 +22,9 @@ class Product extends Model
         'is_best_seller',
     ];
 
+    protected $casts = [
+        'price' => 'decimal:2',
+    ];
+
 
 }

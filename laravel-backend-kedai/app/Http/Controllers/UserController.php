@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 // use Illuminate\Http\Request;
 
 use Illuminate\Http\Request;
-use app\Models\User;
+use App\Models\User;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Hash;
 
@@ -23,7 +23,7 @@ class UserController extends Controller
         return view('pages.user.index', compact('users'));
 
     }
-    
+
     //create
     public function create()
     {
